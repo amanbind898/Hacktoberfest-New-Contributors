@@ -43,5 +43,20 @@
         <li>GitHub-Flavored Markdown: <a href="https://guides.github.com/features/mastering-markdown/">GitHub-Flavored Markdown</a>.</li>
         <li>GitHub license explained: <a href="https://choosealicense.com/">GitHub license explained</a>.</li>
     </ul>
+    <script>
+        // Fetch data from your GitHub repository
+fetch('https://api.github.com/repos/yourusername/Hacktoberfest-New-Contributors/contributors')
+    .then(response => response.json())
+    .then(data => {
+        const contributorsList = document.getElementById('contributors-list');
+        data.forEach(contributor => {
+            const listItem = document.createElement('li');
+            listItem.textContent = contributor.login;
+            contributorsList.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error(error));
+
+    </script>
 </body>
 </html>
