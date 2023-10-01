@@ -2,7 +2,11 @@
 - Place: City, State, Country
 - Bio: Who are you?
 - GitHub: [GitHub account name](GitHub link)
-#### Name: [Test User](https://github.com/testuser)
+#### Name: [Test User](https://github.com/amanbind898)
+- Place: Test City, Test State, Test Country
+- Bio: I am a test contributor.
+- GitHub: [testuser](https://github.com/testuser)
+#### Name: [Test User](https://github.com/himanshukumar56)
 - Place: Test City, Test State, Test Country
 - Bio: I am a test contributor.
 - GitHub: [testuser](https://github.com/testuser)
