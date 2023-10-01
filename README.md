@@ -1,4 +1,5 @@
 # Hacktoberfest-New-Contributors
+<pre>
 To encourage new contributors to make their first open source contribution during Hacktoberfest.
 you can contribute in this site by doing the css in the site or just by adding a hello world in a language you want.
 Project Description:
@@ -45,6 +46,7 @@ Your School
 [Your Name](GitHub Link)
 
 <br>
+
 Scripts Directory:
 Contributors can add "Hello, World!" scripts in different languages.
 Example (for JavaScript):
@@ -61,3 +63,4 @@ Community Engagement:
 Promotion: Encourage contributors to star the repository if they enjoyed the experience.
 Community Building: Foster a sense of community by showcasing global contributors and their profiles.
 Language Diversity: Highlight various programming languages used in the "Hello, World!" scripts.
+</pre>
