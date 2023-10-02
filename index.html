@@ -8,19 +8,34 @@
 <link rel="stylesheet" href="style.css" >
 </head>
 <body>
-    <h1>Welcome to Hacktoberfest New Contributors!</h1>
+    <!-- Include your navigation bar here -->
+    <div class="navbar"><nav>
+       <ul>
+        <li><div class="logo">
+            <img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--horizontal.ebc5fdc8.svg" alt="">
+        </div></li>
+       </ul>
+    </nav>
+</div>
+<div class="container">
+    <div class="typing-text">
+        <span id="text"></span><span id="cursor">_</span>
+      </div>
+      
     <p>Celebrate Hacktoberfest by contributing to open source projects and getting involved in the developer community. Here are some ways you can participate:</p>
     <ol>
         <li>Add your name to the <a href="CONTRIBUTORS.md">CONTRIBUTORS.md</a> file following the provided format.</li>
         <li>Create a profile page in the <a href="profiles/">profiles</a> directory. Share your location, academics, interests, development experience, projects, and GitHub profile.</li>
         <li>Create a "Hello, World!" script in a language of your choice and add it to the <a href="scripts/">scripts</a> directory.</li>
     </ol>
-
+</div>
+<div class="container">
     <h2>List of New Contributors</h2>
     <div id="contributors-list">
         <!-- New contributors' data will be dynamically added here -->
     </div>
-
+</div>
+<div class="container">
     <h2>Additional Resources</h2>
     <ul>
         <li>Learn how to create your first pull request with this <a href="https://github.com/Roshanjossey/first-contributions">tutorial</a> by Roshan Jossey.</li>
@@ -31,6 +46,8 @@
         <li>GitHub-Flavored Markdown: <a href="https://guides.github.com/features/mastering-markdown/">GitHub-Flavored Markdown</a>.</li>
         <li>GitHub license explained: <a href="https://choosealicense.com/">GitHub license explained</a>.</li>
     </ul>
+</div>
+
     <script>
         // Fetch data from your GitHub repository
 fetch('https://api.github.com/repos/amanbind898/Hacktoberfest-New-Contributors/contributors')
@@ -44,6 +61,21 @@ fetch('https://api.github.com/repos/amanbind898/Hacktoberfest-New-Contributors/c
         });
     })
     .catch(error => console.error(error));
+
+
+    const text = ">> Welcome to Hacktoberfest New Contributors!";
+let index = 0;
+
+function type() {
+  if (index < text.length) {
+    document.getElementById("text").textContent += text[index];
+    index++;
+    setTimeout(type, 100); // Typing speed (in milliseconds)
+  } 
+}
+
+type(); // Start typing animation
+
 
     </script>
 </body>
