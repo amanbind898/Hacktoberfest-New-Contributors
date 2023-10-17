@@ -9,19 +9,21 @@ html {
 
 @media only screen and (width<=75em) {
 	html {
-		font-size: 59%
+		font-size: 50%
 	}
 }
 
 @media only screen and (width<=56.25em) {
 	html {
-		font-size: 56%
+		font-size: 90%
 	}
 }
-
+a {
+  text-decoration: none;
+}
 @media only screen and (width>=112.5em) {
 	html {
-		font-size: 65%
+		font-size: 100%
 	}
 }
 body {
@@ -31,18 +33,41 @@ body {
   color: rgb(239, 237, 239);
   font-family: JetBrains Mono, monospace;
   text-transform: uppercase;
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
-.navbar ul {
+
+.d-none {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px 10px 20px 10px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+nav a {
+  color: rgb(239, 237, 239);
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+  text-decoration: none;
+  color: rgb(233, 225, 239);
+  padding: 5px;
+
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10%;
-  min-height: 10vh;
+nav ul li {
+  margin: 0 10px;
 }
 .container {
   max-width: 960px;
@@ -62,6 +87,7 @@ ul {
 }
 
 li {
+  list-style: circle inside;
   margin-bottom: 10px;
 }
 
@@ -76,14 +102,18 @@ a:hover {
 
 /* Code block styling */
 pre {
-  background-color: #f8f9fa;
+  background-color: #82992e;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid none;
+color: black;
+font-weight: 700;
   border-radius: 5px;
   overflow-x: auto;
 }
 
 .typing-text {
+  color: yellow;
+  text-shadow: 0 0 1px #fff, 0 0 0px #fff, 0 0 3px #a1da10, 0 0 1px #a1da10, 0 0 2px #a1da10, 0 0 6px #a1da10, 0 0 7px #a1da10;
   font-size: 32px;
   overflow: hidden;
 text-transform: uppercase;
@@ -115,4 +145,24 @@ text-transform: uppercase;
 #text {
   display: inline-block;
   animation: typing s steps(40) step-end;
+}
+.highlighter-rouge {
+  color: #a1da10;
+  font-size: 1rem;
+}
+.gu{
+  color: #442b0b;
+  font-size: 1rem;
+}
+.p{
+  color: #162507;
+  font-size: 1rem;
+}
+.footer{
+  background-color: #162507;
+  color: #a1da10;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
 }
