@@ -1,5 +1,5 @@
 # Welcome to Hacktoberfest New Contributors! 🎉
-## Altohugh ,It is not to be said a valid contribution according to hactoberfest rules, but you can do this for fun. ##
+## Altohugh ,It is not a big-contribution, but you can do this for fun. ##
 Are you ready to dive into the world of open source? Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) with us by making your first contribution to this exciting project. Join the global open source community and create your very first pull request on GitHub. 
 
 ## What is Hacktoberfest?
