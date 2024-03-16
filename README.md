@@ -71,7 +71,7 @@ Here's how you can start your journey:
 8. **Star this repository**: If you had fun, don't forget to star this repository!
 
 ## Bonus Features!
-- Check out profiles submitted by fellow coders from around the globe, from Kathmandu to Copenhagen 🌍.
+- Check out profiles submitted by fellow coders from around the globe, from Azamgarh to Bangalore 🌍.
 - Explore a variety of programming languages, from BrainFuck to Groovy 💻.
 - Be inspired by creative ways to print out a "Hello, World!" string 🚀.
 
@@ -85,4 +85,4 @@ Here's how you can start your journey:
 ## Additional References
 - Understand GitHub licenses: [GitHub License Guide](https://choosealicense.com)
 
-Ready to contribute? Let's make Hacktoberfest 2023 unforgettable together! Happy coding! 😊✨
+Ready to contribute? Let's make Opensource 2024 unforgettable together! Happy coding! 😊✨
